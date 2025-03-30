@@ -1,0 +1,103 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 30px;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; 
+  gap: 20px;
+}
+
+
+.link {
+  width: 100%;
+}
+
+
+.input {
+  width: 100%; 
+  max-width: 600px; 
+  height: 50px; 
+  font-size: 18px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  color: black; 
+}
+
+textarea.input {
+  height: 120px; 
+  resize: none;
+  color: black; 
+}
+
+
+.button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button:hover {
+  background-color: darkred;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 830px) {
+  .container {
+    gap: 23px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .links {
+    width: 90%;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
+.success {
+  color: rgb(180, 230, 130); /* Light pastel green */
+}

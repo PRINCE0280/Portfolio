@@ -1,0 +1,29 @@
+[
+  {
+    "title": "BMI CALCULATOR",
+    "imageSrc": "projects/project1.png",
+    "description": "The BMI Calculator is a web application that calculates(BMI) based on weight and height.",
+    "skills": ["HTML", "CSS", "JAVASCRIPT"],
+    "demo": "https://bmicali01.netlify.app/",
+    "source": "https://github.com/PRINCE0280/BMI-CALCULATOR"
+  }
+,  
+{
+  "title": "TODO LIST",
+  "imageSrc": "projects/Project2.png",
+  "description": "The To-Do List is a web application that helps users efficiently manage their tasks. ",
+  "skills": ["HTML", "CSS", "REACT"],
+  "demo": "https://todolist00001.netlify.app/",
+  "source": "https://github.com/PRINCE0280/Todo_List"
+}
+,
+{
+  "title": "HOTEL AUTOMATION",
+  "imageSrc": "projects/project.png",
+  "description": "Hotel Automation is a web-based system designed to streamline hotel management tasks.",
+  "skills": ["React", "Express", "Node"],
+  "demo": "https://www.example.com",
+  "source": "https://www.github.com"
+}
+
+]
